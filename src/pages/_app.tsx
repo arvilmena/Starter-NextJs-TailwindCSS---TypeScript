@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import localFont from "@next/font/local";
-import Layout from "@/components/Layout";
+import { Layout } from "@/components";
 
 const alaskaFont = localFont({
     src: [
